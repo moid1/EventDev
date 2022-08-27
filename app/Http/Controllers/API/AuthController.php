@@ -32,9 +32,15 @@ class AuthController extends Controller
         $addresses = Address::where('user_id', $userId)->get();
         $profileImages = ProfileImage::where('user_id', $userId)->get();
         $events = Event::where('user_id', $userId)->get();
-        $addresses->delete();
-        $profileImages->delete();
-        $addresses->delete();
+        if ($addresses) {
+            $addresses->delete();
+        }
+        if ($profileImages) {
+            $profileImages->delete();
+        }
+        if ($events) {
+            $events->delete();
+        }
         $user->delete();
         return response()->json([
             'success' => true,
