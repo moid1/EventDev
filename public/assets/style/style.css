@@ -1,0 +1,3816 @@
+        * {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            text-decoration: none !important;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        html,
+        body {
+            min-height: 100vh;
+        }
+
+
+
+
+        .xsmall {
+            font-size: 11px;
+        }
+
+        .profileEvents {
+            width: 90px !important;
+            height: 90px !important;
+        }
+
+        .eventsPic {
+            width: 90px;
+            height: 97px;
+            border-radius: 10px;
+        }
+
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+
+
+        .hide {
+            display: block;
+        }
+
+        .scroll {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+
+        .modal {
+            text-align: center;
+            padding: 0 !important;
+        }
+
+        .modal:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            margin-right: -4px;
+
+        }
+
+        .modal-dialog {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+
+
+        /* input[type=text] {
+            width: 100%;
+        } */
+
+        ::-webkit-scrollbar {
+            width: 0;
+            /* Remove scrollbar space */
+            background: transparent;
+            /* Optional: just make scrollbar invisible */
+        }
+
+        input[type="date"]::-webkit-inner-spin-button,
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            opacity: 0;
+            -webkit-appearance: none;
+        }
+
+        input {
+            border: 0;
+            outline: 0;
+            width: 100%;
+            background: none;
+        }
+
+        input:focus {
+            outline: none !important;
+        }
+
+        /* a {
+            color: #000000 !important;
+        } */
+
+        .header {
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-top: 20px;
+        }
+
+        .headerSearchBColor {
+            background-color: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+            width: 100%;
+            align-items: center;
+            vertical-align: middle;
+            height: 48.0px;
+        }
+
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            font-size: 18px;
+            color: #74ABB0;
+            opacity: 1;
+            /* Firefox */
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            font-size: 18px;
+            color: #74ABB0;
+        }
+
+        .imgGap {
+            margin-right: 10px;
+        }
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            font-size: 18px;
+            color: #74ABB0;
+        }
+
+        .headerSearchColor {
+            font-size: 18px;
+            color: #74ABB0;
+        }
+
+        .lineHeight100 {
+            line-height: 100%;
+        }
+
+        .width20PX {
+            width: 20px;
+            ;
+        }
+
+        .percent5LeftMargin {
+            margin-left: 5%;
+        }
+
+        .percent5RightMargin {
+            margin-right: 5%;
+        }
+
+        .percent20LeftMargin {
+            margin-left: 20px;
+        }
+
+        .iconsBackgroundBox {
+            height: 40px;
+            width: 40px;
+            background-color: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+            text-align: center;
+            display: inline-grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .iconsBackgroundBoxWhite {
+            height: 40px;
+            width: 40px;
+            background-color: white;
+            border-radius: 6px;
+            text-align: center;
+            display: inline-grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .whiteIconsBackgroundBox:hover {
+            background-color: rgba(56.42, 135.87, 143.44, 0.2);
+            color: white;
+        }
+
+        .iconsBackgroundBox:hover {
+            background-color: rgba(56.42, 135.87, 143.44, 1);
+            color: white;
+        }
+
+        .circularImage {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .smallCircularImage {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .notificationDot {
+            width: 12px;
+            height: 12px;
+            left: 60%;
+            top: 20%;
+            position: absolute;
+            background-color: rgba(255, 96, 96, 1);
+            border-radius: 8px;
+        }
+
+        .activeDot {
+            width: 12px;
+            height: 12px;
+            left: 90%;
+            top: 11%;
+            position: absolute;
+            background-color: #26C696;
+            border-radius: 8px;
+        }
+
+        .errorAlignment {
+            display: grid;
+            font-size: 11px;
+            text-align: left;
+        }
+
+        .sideBar {
+            margin-left: 40px;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.07);
+            border-radius: 9px;
+        }
+
+        .sideBarActive {
+            color: white;
+            height: 50px;
+            margin: 20px 0 20px 0;
+            background-color: rgba(56.42, 135.87, 143.44, 1);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.18);
+            border-radius: 10px;
+        }
+
+        .sideBarActive a {
+            color: white;
+        }
+
+        .sideBarActive a:hover {
+            color: white;
+        }
+
+        .normal-text {
+            font-weight: normal !important;
+            align-items: center;
+            font-size: 17px;
+            margin-bottom: -5px;
+        }
+
+        .filterEvents,
+        .notifications {
+            padding-top: 16px;
+            margin-left: 40px;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.07);
+            border-radius: 9px;
+        }
+
+        .filterEventsBox {
+            margin-left: 3%;
+            margin-top: 5%;
+        }
+
+        .hintText {
+            font-size: 13px;
+            padding: 18px;
+            min-width: 100px;
+            color: rgba(148.75, 148.75, 148.75, 1);
+        }
+
+        .grey-background {
+            background-color: rgba(236, 242, 243, 1);
+            border: none;
+        }
+
+        .fieldBackground {
+            background-color: rgba(236, 242, 243, 1);
+            border-radius: 9px;
+            width: 50%;
+            height: 100%;
+            font-size: 12px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            vertical-align: middle;
+        }
+
+        .margin-left-20 {
+            margin-left: 20px;
+        }
+
+        .eventsDetailSection {
+            margin-left: 15px;
+        }
+
+        .margin-left-25 {
+            margin-left: 25px !important;
+        }
+
+        .margin-5 {
+            margin: 16px !important;
+        }
+
+        .padding-20 {
+            padding: 20px !important;
+        }
+
+        .tagsParent {
+            margin-left: 1% !important;
+        }
+
+        .tags {
+            background-color: rgba(236, 242, 243, 1);
+            border-radius: 10px;
+            height: 100%;
+            width: 40%;
+            padding: 10px !important;
+            margin-left: 2%;
+            text-align: center;
+            font-size: 13px;
+            margin: 2%;
+        }
+
+        .conditions {
+            margin-left: 5px;
+        }
+
+        .notifications-primary-text {
+            color: #6D6D6D !important;
+            font-size: 13px;
+            width: 80%;
+        }
+
+        .agoColor {
+            color: #C1C1C1 !important;
+            font-size: 13px;
+        }
+
+        .create_account {
+            color: white;
+            font-size: 18px;
+        }
+
+        .createEventBG {
+            width: 100%;
+
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: black;
+            height: 50px !important;
+
+            /* background: url('../images/Rectangle 23.png'); */
+            background-repeat: no-repeat;
+            filter: drop-shadow(0px 4px 34px#314648);
+            border-radius: 6px;
+            opacity: 0.5;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .nowrap {
+            white-space: nowrap;
+        }
+
+        .eventLiveFeedSection {
+            width: 100%;
+            overflow-x: scroll;
+        }
+
+
+        .eventsNearYouBG {
+            margin-bottom: 30px;
+            background-color: white;
+            /* box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.07); */
+        }
+
+        .eventsNearYou {
+            border-top-left-radius: 9px;
+            display: block;
+            position: relative;
+            border-top-right-radius: 9px;
+            width: 100%;
+            margin-top: 2%;
+        }
+
+        .greenBanner {
+            background: #43D686;
+            position: absolute;
+            right: 20px;
+            border-radius: 10px;
+            width: auto;
+            min-width: 130px;
+            justify-content: center;
+            height: 40px;
+            top: -45px;
+        }
+
+        .darkGreenBanner {
+            background: #314648;
+            position: absolute;
+            right: 20px;
+            border-radius: 10px;
+            width: auto;
+            min-width: 130px;
+            justify-content: center;
+            height: 40px;
+            top: -45px;
+        }
+
+
+        .whiteBanner {
+            background: white;
+            position: absolute;
+            right: 30px;
+            bottom: 20;
+            border-radius: 10px;
+            width: 150px;
+            justify-content: center;
+            height: 40px;
+        }
+
+        .whiteBannerSmall {
+            background: white;
+            position: absolute;
+            right: 30px;
+            bottom: 20;
+            border-radius: 10px;
+            width: 40px;
+            justify-content: center;
+            height: 40px;
+        }
+
+        .options {
+            position: absolute;
+            top: 70;
+            display: flex;
+            right: 10;
+        }
+
+        .whiteIconsBackgroundBox {
+            height: 40px;
+            position: absolute;
+            display: flex;
+            width: 40px;
+            right: 30;
+            top: 7;
+            background-color: white;
+            border-radius: 6px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .eventsSubDetails {
+            margin-top: 3%;
+            justify-content: center;
+            align-items: center;
+            vertical-align: middle;
+        }
+
+        .red {
+            color: red !important;
+        }
+
+        .blue {
+            color: #3BACEC !important;
+        }
+
+        .light-grey {
+            color: #D4D4D4 !important;
+        }
+
+        .lightGreenTealBG {
+            background-color: #38888F !important;
+        }
+
+        .lightGreenTeal {
+            color: #38888F !important;
+        }
+
+        .medium-grey {
+            color: #6D6D6D !important;
+        }
+
+        .left-0 {
+            left: 20 !important;
+        }
+
+        /* tag */
+
+        .side_tag {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: none !important;
+        }
+
+        /* followers  */
+
+        .followers {
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+        }
+
+        .eventsTitleProfile {
+            font-size: 12px;
+        }
+
+        .title {
+            padding: 16px;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .title span {
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .pac-container {
+            z-index: 10000 !important;
+        }
+
+        .data {
+            display: flex;
+            padding: 19px 0px 0px 16px;
+        }
+
+        .data h4 {
+            margin-left: 12px;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .description {
+
+            font-size: 13px;
+            font-weight: 400;
+            color: #6D6D6D;
+        }
+
+        .block {
+            position: relative;
+            top: -52px;
+            right: 52px;
+            float: right;
+            font-size: 13px;
+            color: #6D6D6D;
+            letter-spacing: 1px;
+        }
+
+        .last {
+            width: 100%;
+            border: 1px solid #E6E6E6;
+            transform: rotate(180deg);
+        }
+
+        /* Favourit */
+
+        .side_date {
+            padding-top: 16px;
+            margin-left: 40px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+        }
+
+        .tag_top {
+            color: #000000;
+            margin-left: 19px;
+            font-size: 13px;
+        }
+
+        .top_button {
+            margin-top: 30px;
+        }
+
+        .upcoming {
+            width: 202.3px;
+            height: 46.45px;
+            left: 436.41px;
+            top: 120.2px;
+            background: #314648;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            color: white;
+            border: none;
+        }
+
+        .logout {
+            margin-left: 10px;
+            width: 152px;
+            height: 46.45px;
+            left: 436.41px;
+            top: 120.2px;
+            background: #314648;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            color: white;
+            border: none;
+        }
+
+        .past {
+            background: white;
+            width: 150.3px;
+            height: 46.45px;
+            border: 1px solid #297279;
+            box-sizing: border-box;
+            border-radius: 6px;
+            color: #297279;
+        }
+
+        .heart {
+            position: relative;
+            top: -100px;
+            right: 52px;
+            float: right;
+            font-size: 13px;
+            color: #6D6D6D;
+            letter-spacing: 1px;
+        }
+
+        .main_data {
+            display: flex;
+        }
+
+        .vertical {
+            width: 20px;
+            position: absolute;
+            left: 90%;
+            top: 50%;
+            border: 1px solid #E6E6E6;
+            transform: rotate(90deg);
+        }
+
+        .favourit {
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+            padding: 20px;
+        }
+
+        .title_favourit {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .fav_text {
+            position: relative;
+            top: 9px;
+        }
+
+        .text {
+            position: relative;
+            top: -9px;
+            left: 19px;
+        }
+
+        .clearfix {
+            overflow: auto;
+        }
+
+        .heartIcon {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            right: 0;
+        }
+
+        /* notification */
+
+        .notification {
+            /* margin-left: 60px; */
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+            /* min-height: 100%; */
+        }
+
+        .notifiy {
+            padding: 10px;
+        }
+
+        .not_title {
+            padding: 16px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .notify_description {
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        .notify_title {
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+
+        .notify_time {
+            position: relative;
+            right: 18px;
+            font-size: 13px;
+            font-weight: 400;
+            color: #C1C1C1;
+        }
+
+        .last_notify {
+            width: 100%;
+            border: 1px solid #E6E6E6;
+            transform: rotate(180deg);
+        }
+
+        /* Chat */
+
+        .chat {
+            width: 1025.41px;
+            height: 51.38px;
+            left: 120.94px;
+            top: 178.31px;
+            background: #F7F7F7;
+            border-radius: 10px;
+            margin: 0px 17px;
+            padding: 10px;
+            margin-left: 17px !important;
+            margin-top: 10px;
+        }
+
+        .chat_description {
+            margin-left: -17px;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+
+        .side_dat {
+            position: relative;
+            top: -49px;
+            left: 53px;
+        }
+
+        /* Event Comment */
+        /* profileSection  */
+
+        .profileSection {
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.2);
+            min-height: 150px;
+            padding-top: 16px;
+            /* margin-left: 40px; */
+            margin-top: 20px;
+        }
+
+        .yourEvents {
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.2);
+            padding-top: 16px;
+            /* margin-left: 40px; */
+            margin-top: 20px;
+        }
+
+        .personalDetailsBg {
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.2);
+            padding-top: 16px;
+            /* margin-left: 40px; */
+            margin-top: 20px;
+            padding-bottom: 16px;
+        }
+
+        .borderRadius5 {
+            border-radius: 5px !important;
+        }
+
+        .large-text {
+            font-size: 25px;
+        }
+
+        .upcomingProfile {
+            min-width: 150px;
+            min-height: 35px;
+            border: none;
+            background-color: #38888F !important;
+            color: white;
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.17);
+            border-radius: 6px;
+            padding: 11px;
+        }
+
+        .pastOutlineButton {
+            min-width: 150px;
+            min-height: 35px;
+            border: 1px solid #297279;
+            box-sizing: border-box;
+            border-radius: 6px;
+            color: #297279;
+            background-color: white;
+            box-sizing: border-box;
+            border-radius: 6px;
+            padding: 10px;
+        }
+
+        .eventsCard {
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+            min-width: 250px;
+        }
+
+        .smallTextGrey {
+            font-size: 13px;
+            color: #6D6D6D !important;
+        }
+
+        .mediumTextGrey {
+            font-size: 15px;
+            color: #6D6D6D !important;
+        }
+
+        .inputFieldGreenBG {
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            background-color: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+        }
+
+        .smallInputFieldGreenBG {
+            width: 150px;
+            height: 50px;
+            align-items: center;
+            background-color: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+        }
+
+        .mediumInputFieldGreenBG {
+            width: 250px;
+            height: 50px;
+            align-items: center;
+            background-color: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+        }
+
+        .width150 {
+            width: 150px !important;
+        }
+
+        .eventBgImage {
+            height: 250px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .centerIcon {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+
+        .personFollowersInfo {
+            display: flex;
+        }
+
+        .profileInfo {
+            display: flex;
+        }
+
+        .loginBg {
+            background: url('../images/loginBG1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .loginBg .circle {
+            --size: 148px;
+            width: var(--size);
+            height: var(--size);
+            border-radius: var(--size);
+            background: url(../images/right-top-graphic.png) center center no-repeat;
+            position: absolute;
+            right: -70px;
+            top: -70px;
+        }
+
+        .loginBg .left-bottom {
+            right: auto;
+            top: auto;
+            left: -70px;
+            bottom: -70px;
+        }
+
+        .loginBg .left-top {
+            background: url(../images/left-top.png) right top no-repeat;
+            width: 118px;
+            height: 55px;
+            position: absolute;
+            left: 30px;
+            top: 30px;
+        }
+
+        .loginBg .right-bottom {
+            background: url(../images/right-bottom.png) right top no-repeat;
+            width: 218px;
+            height: 74px;
+            position: absolute;
+            right: 0;
+            bottom: 40px;
+        }
+
+        .right-col .right-top {
+            background: url(../images/right-top-green.png) right top no-repeat;
+            width: 214px;
+            height: 108px;
+            position: absolute;
+            right: 0;
+            top: 25px;
+        }
+
+        .right-col .left-bottom {
+            background: url(../images/left-bottom-green.png) right top no-repeat;
+            width: 104px;
+            height: 45px;
+            position: absolute;
+            left: 65px;
+            bottom: 13px;
+        }
+
+        .bottomPostion {
+            top: 70%;
+            transform: translate(-50%, 100%);
+            bottom: 30%;
+            left: 50%;
+            /* right: 50%; */
+            position: absolute;
+        }
+
+        .padding-0 {
+            padding: 0 !important;
+        }
+
+        .medium-heading-green {
+            color: #74ABB0;
+            font-size: 25px;
+        }
+
+        .centerAnyThing {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .textUnderline {
+            text-decoration: underline;
+        }
+
+        /* EVENT COMMETN  */
+
+        .event_comment {
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+            min-height: 56%;
+        }
+
+        .comment {
+            width: 96%;
+            height: 51.38px;
+
+            /* background: #F7F7F7; */
+            border-radius: 10px;
+            margin: 0px 17px;
+            padding: 10px;
+            margin-left: 17px !important;
+            margin-top: 10px;
+        }
+
+        .chat_description {
+            margin-left: -17px;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+
+        .side_dat {
+            position: relative;
+            top: -49px;
+            left: 53px;
+        }
+
+        .b_comment {
+            background: #38888F;
+            box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+            border-radius: 9px;
+            color: white;
+            padding: 5px;
+        }
+
+        .comt_img {
+            color: white !important;
+            margin-right: 13px;
+        }
+
+        .top_banner {
+            background: #43D686;
+            position: absolute;
+            right: 20px;
+            border-radius: 10px;
+            width: auto;
+            min-width: 130px;
+            justify-content: center;
+            height: 40px;
+            top: -40px;
+        }
+
+        .top_banner2 {
+            height: 40px;
+            position: absolute;
+            display: flex;
+            width: 40px;
+            right: 40;
+            top: 10px;
+            background-color: white;
+            border-radius: 6px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .event_cb {
+            width: 100%;
+            height: 5%;
+            background: #F7F7F7;
+            border-radius: 10px;
+        }
+
+        .event_com {
+            width: 100%;
+            height: 6%;
+            background: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+        }
+
+        .comt_btn {
+            width: 138.56px;
+            height: 45.87px;
+            left: 884.04px;
+            background: #3BACEC;
+            border-radius: 6px;
+            border: none;
+            color: white;
+            margin-top: 14px;
+        }
+
+        /* Event Details */
+
+        .event_desc {
+            width: 90%;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #6D6D6D;
+
+        }
+
+        .padding16 {
+            padding: 16px;
+        }
+
+        .event_tit {
+
+            font-size: 20px;
+            padding: 16px;
+        }
+
+        .con_tag {
+            margin-left: 32px;
+        }
+
+        .condition_tag {
+            width: 15%;
+            height: 35px;
+            border: 1px solid #6D6D6D;
+            box-sizing: border-box;
+            border-radius: 6px;
+            background-color: white;
+        }
+
+        .location_title {
+            margin-left: 32px;
+            font-size: 20px;
+        }
+
+        .map {
+            width: 100%;
+        }
+
+        .map_button {
+            width: 100%;
+            height: 55px;
+            background: #314648;
+            box-shadow: 0px 4px 34px rgb(0 0 0 / 25%);
+            border-radius: 6px;
+            margin-top: 22px;
+            color: white;
+        }
+
+        .main_snap {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+            ;
+            background: #F7F7F7;
+            border-radius: 10px;
+        }
+
+        .snap_cb {
+            width: 80%;
+
+            background: #F7F7F7;
+            border-radius: 10px;
+            margin-left: 21px !important;
+            margin-right: 0 !important;
+        }
+
+        .snap_nm {
+            margin-left: -20px;
+            font-size: 13px;
+        }
+
+        .snap_text {
+            position: relative;
+            margin-left: -20px;
+            font-size: 13px;
+            top: -17px;
+        }
+
+        .snap_btn1 {
+            width: 417.12px;
+            height: 57.34px;
+            left: 136.88px;
+            top: 1970.26px;
+            background: #FF6464;
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            border: none;
+            color: white;
+        }
+
+        .snap_btn2 {
+            width: 417.12px;
+            height: 57.34px;
+            left: 575.19px;
+            top: 1970.26px;
+            background: #38888F;
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            border: none;
+            color: white;
+        }
+
+        .snp_btn {
+            margin-left: 70px;
+        }
+
+        .sign_dec {
+            color: #297279;
+        }
+
+        .sig_btn {
+            margin-left: -60px;
+        }
+
+        /* fxzgcgckjxcgzckjxzcjgxzckjgx */
+
+        .greyBorder {
+            border: 1px solid #DBDBDB;
+        }
+
+        .fa-caret-down {
+            position: absolute;
+            right: 25%;
+        }
+
+        .modal-dialog {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .modal-content {
+            height: auto;
+            min-height: 60%;
+            overflow-y: auto;
+            border-radius: 0;
+        }
+
+        .height-50px {
+            height: 50px;
+        }
+
+        .snp_uplo {
+            width: 90%;
+            height: 57.34px;
+
+            background: #314648;
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            color: white;
+            margin: 24px;
+        }
+
+        .even_type {
+            padding: 8px;
+            border: none;
+        }
+
+        .event_date {
+            width: 100%;
+            height: 57.34px;
+
+            background: #38888F;
+            border-radius: 6px;
+            color: white;
+            margin-top: 26px;
+
+            padding: 10px;
+        }
+
+        .location {
+            /* width: 96%;
+            height: 57.34px;
+            left: 320.92px;
+            top: 662.51px;
+            background: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+            padding: 18px; */
+            margin-left: 16px;
+            margin-top: 14px;
+        }
+
+        .loction_select {
+
+            height: 30.87px;
+            width: 50%;
+            background: #3BACEC;
+            border-radius: 6px;
+            float: right;
+            border: none;
+            color: white;
+        }
+
+        .link_select {
+            width: 110.11px;
+            height: 30.87px;
+            left: 899.24px;
+            top: 675.74px;
+            background: #3BACEC;
+            border-radius: 6px;
+            float: right;
+            border: none;
+            color: white;
+        }
+
+        .event_cont {
+            font-size: 18px;
+            margin-left: 20px;
+            margin-top: 12px;
+        }
+
+        .event_tagg {
+            width: 100%;
+            height: 57.34px;
+            left: 320.92px;
+            top: 853.41px;
+            background: #38888F;
+            border-radius: 6px;
+            margin-left: 20px;
+            border: none;
+            color: white;
+            padding: 14px;
+        } 
+        .event_tag {
+            width: 118.65px;
+            height: 57.34px;
+            left: 320.92px;
+            top: 853.41px;
+            background: #38888F;
+            border-radius: 6px;
+            margin-left: 20px;
+            border: none;
+            color: white;
+        }
+
+        .event_t {
+            width: 118.65px;
+            height: 57.34px;
+            /* left: 18.92%; */
+            /* right: 18.92%; */
+            /* top: 8.22%; */
+            /* bottom: 6.62%; */
+            background: #FFFFFF;
+            box-shadow: 0px 32px 52px rgb(41 59 74 / 28%);
+            border-radius: 15px;
+            /* border: none;*/
+        }
+
+        .event_con {
+            width: 200.85px;
+            height: 57.34px;
+
+            background: #314648;
+            border-radius: 6px;
+            color: white;
+        }
+
+        .create {
+            width: 96%;
+            height: 57.34px;
+            left: 320.92px;
+            top: 1153.75px;
+            background: #314648;
+            box-shadow: 0px 4px 34px rgb(0 0 0 / 25%);
+            border-radius: 6px;
+            /* padding: 15px; */
+            color: white;
+            margin: 15px;
+        }
+
+        .save {
+            width: 96%;
+            height: 57.34px;
+            left: 320.92px;
+            top: 1153.75px;
+            border: 1px solid #297279;
+            box-sizing: border-box;
+            border-radius: 6px;
+            /* padding: 15px; */
+            margin: 0px 15px;
+            color: #297279;
+        }
+
+        .leftMenuHeading {
+            font-size: 18px;
+            color: black;
+            margin-left: 5% !important;
+            margin-bottom: 3%;
+        }
+
+        .eventsTitle {
+            font-size: 18px;
+        }
+
+        .eventsDetailsHome {
+            font-size: 12px;
+        }
+
+        .eventOptions {
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        .eventsComment {
+            padding: 10px;
+            background: white;
+            box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.07);
+            border-radius: 9px;
+        }
+
+        .commentTitle {
+            font-size: 17px;
+        }
+
+        .comments {
+            width: 100%;
+            margin: 0 auto;
+
+            height: 50px;
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+
+            padding: 30px;
+        }
+
+        .commentText {
+            color: #6D6D6D;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+
+        .commentTime {
+            color: #969696;
+            font-size: 13px;
+            position: absolute;
+            right: 0;
+            margin-right: 35px;
+        }
+
+        .commenterName {
+            margin-left: 5px;
+            color: #5B5B5B;
+            font-size: 15px;
+            margin-left: 12px;
+            margin-bottom: 12px;
+        }
+
+        @media only screen and (max-width:1106px) and (min-width:1025px) {
+            .shareImg {
+                width: 14px;
+                height: 14px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .profileEvents {
+                width: 90px !important;
+                height: 90px !important;
+            }
+
+            .eventsCard {
+                margin: 18px;
+                padding: 18px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 280px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+
+            .upcoming {
+                width: 100% !important;
+            }
+
+            .title_favourit {
+                font-size: 17px;
+            }
+
+            .side_tag {
+                font-size: 13px;
+            }
+
+            .fieldBackground {
+                width: 40%;
+                font-size: 10px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 14px;
+            }
+
+            .eventsTitle {
+                font-size: 15px;
+            }
+
+            .smallTextGrey {
+                font-size: 11px;
+            }
+
+            .mediumTextGrey {
+                font-size: 14px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) and (min-width: 991px) {
+            .eventsCard {
+                margin: 15px;
+                padding: 15px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 250px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .title_favourit {
+                font-size: 16px;
+            }
+
+            .side_tag {
+                font-size: 13px;
+            }
+
+            /* .upcoming {
+                width: 150.3px;
+            } */
+
+            .past {
+                width: 120.3px;
+            }
+
+            .fieldBackground {
+                width: 40%;
+                font-size: 10px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 14px;
+            }
+
+            .eventsTitle {
+                font-size: 15px;
+            }
+
+            .smallTextGrey {
+                font-size: 11px;
+            }
+
+            .mediumTextGrey {
+                font-size: 14px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 990px) and (min-width: 951px) {
+            .eventsCard {
+                margin: 15px;
+                padding: 15px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 250px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+            }
+
+            .title_favourit {
+                font-size: 16px;
+            }
+
+            .imgGap {
+                margin-right: 16px;
+            }
+
+            .past {
+                width: 120.3px;
+            }
+
+            .side_tag {
+                font-size: 11px;
+            }
+
+            .fieldBackground {
+                width: 35%;
+                font-size: 8px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 14px;
+            }
+
+            .createEventBG {
+                width: 100%;
+                height: 50px !important;
+                margin-bottom: 2%;
+            }
+
+            .eventsTitle {
+                font-size: 15px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 9px;
+            }
+
+            .notificationDot {
+                left: 70%;
+            }
+
+            .activeDot {
+                left: 100%;
+            }
+
+            .mediumTextGrey {
+                font-size: 11px;
+            }
+
+            .smallTextGrey {
+                font-size: 10px;
+            }
+
+            .notifications-primary-text {
+                font-size: 11px;
+            }
+
+            .create_account {
+                color: white;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (max-width: 950px) and (min-width: 917px) {
+            .large-text {
+                font-size: 19px;
+            }
+
+            .logout {
+                width: 122px;
+                height: 46.45px;
+                margin-left: 15px;
+                background: #314648;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                color: white;
+                border: none;
+            }
+
+            .upcoming {
+                width: 100% !important;
+            }
+
+            .eventsCard {
+                margin: 10px;
+                padding: 10px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 240px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .past {
+                width: 120.3px;
+            }
+
+            .title_favourit {
+                font-size: 15px;
+            }
+
+            .imgGap {
+                margin-right: 15px;
+            }
+
+            .side_tag {
+                font-size: 11px;
+            }
+
+            .fieldBackground {
+                width: 37%;
+                font-size: 8px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 14px;
+            }
+
+            .createEventBG {
+                width: 100%;
+                height: 50px !important;
+                margin-bottom: 2%;
+                margin-left: -12px;
+            }
+
+            .eventsTitle {
+                font-size: 15px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 9px;
+            }
+
+            .notificationDot {
+                left: 70%;
+            }
+
+            .activeDot {
+                left: 100%;
+            }
+
+            .mediumTextGrey {
+                font-size: 11px;
+            }
+
+            .smallTextGrey {
+                font-size: 10px;
+            }
+
+            .notifications-primary-text {
+                font-size: 11px;
+            }
+
+            .create_account {
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                left: 38%;
+            }
+        }
+
+        @media only screen and (max-width: 916px) and (min-width: 878px) {
+            .profileEvents {
+                width: 90px;
+                height: 90px;
+            }
+
+            .eventsCard {
+                margin: 12px;
+                padding: 12px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 250px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .pastOutlineButton {
+                min-width: 120px;
+            }
+
+            .large-text {
+                font-size: 19px;
+            }
+
+            .logout {
+                width: 122px;
+                height: 46.45px;
+                margin-left: 15px;
+                background: #314648;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                color: white;
+                border: none;
+            }
+
+            .side_tag {
+                font-size: 10px;
+            }
+
+            .title_favourit {
+                font-size: 15px;
+            }
+
+            .imgGap {
+                margin-right: 15px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+            }
+
+            .past {
+                width: 120.3px;
+            }
+
+            .fieldBackground {
+                width: 38%;
+                font-size: 8px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 14px;
+            }
+
+            .createEventBG {
+                width: 100%;
+                height: 50px !important;
+                margin-bottom: 2%;
+                margin-left: -12px;
+            }
+
+            .eventsTitle {
+                font-size: 15px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 8px;
+            }
+
+            .notificationDot {
+                left: 70%;
+            }
+
+            .activeDot {
+                left: 100%;
+            }
+
+            .mediumTextGrey {
+                font-size: 10px;
+            }
+
+            .smallTextGrey {
+                font-size: 9px;
+            }
+
+            .notifications-primary-text {
+                font-size: 11px;
+            }
+
+            .create_account {
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                left: 38%;
+            }
+
+            .hintText {
+                font-size: 13px;
+                padding: 18px;
+                min-width: 90px;
+                color: rgba(148.75, 148.75, 148.75, 1);
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .heartIcon {
+                height: 15px;
+                width: 15px;
+                position: absolute;
+                right: 0;
+            }
+        }
+
+        @media only screen and (max-width: 877px) and (min-width: 838px) {
+            .personFollowersInfo {
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .condition_tag {
+                font-size: 11px;
+            }
+
+            .logout {
+                width: 120px;
+                height: 46.45px;
+                margin-left: 15px;
+                background: #314648;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                color: white;
+                border: none;
+            }
+
+            .large-text {
+                font-size: 19px;
+            }
+
+            .profileEvents {
+                width: 90px;
+                height: 90px;
+            }
+
+            .eventsCard {
+                margin: 12px;
+                padding: 12px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 250px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .pastOutlineButton {
+                min-width: 120px;
+            }
+
+            .side_tag {
+                font-size: 9px;
+            }
+
+            .title_favourit {
+                font-size: 15px;
+            }
+
+            .imgGap {
+                margin-right: 16px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+            }
+
+            .past {
+                width: 90.0px;
+            }
+
+            .heartIcon {
+                width: 12px;
+                height: 12px;
+            }
+
+            .past {
+                width: 120.3px;
+            }
+
+            .fieldBackground {
+                width: 34%;
+                font-size: 6px;
+                padding: 3px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 14px;
+            }
+
+            .createEventBG {
+                width: 100%;
+                height: 50px !important;
+                margin-bottom: 2%;
+                margin-left: -12px;
+            }
+
+            .eventsTitle {
+                font-size: 14px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 8px;
+            }
+
+            .notificationDot {
+                left: 70%;
+            }
+
+            .activeDot {
+                left: 100%;
+            }
+
+            .mediumTextGrey {
+                font-size: 10px;
+            }
+
+            .smallTextGrey {
+                font-size: 9px;
+            }
+
+            .notifications-primary-text {
+                font-size: 11px;
+            }
+
+            .create_account {
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                left: 35%;
+                top: 40px !important;
+            }
+
+            .hintText {
+                font-size: 11px;
+                padding: 15px;
+                min-width: 60px;
+                color: rgba(148.75, 148.75, 148.75, 1);
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .whiteBanner {
+                background: white;
+                position: absolute;
+                right: 30px;
+                bottom: 20;
+                border-radius: 10px;
+                width: 120px;
+                justify-content: center;
+                height: 40px;
+                font-size: 13px;
+            }
+
+            .smallTextGrey {
+                font-size: 8px;
+            }
+        }
+
+        @media only screen and (max-width: 837px) and (min-width: 800px) {
+            .personFollowersInfo {
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .condition_tag {
+                font-size: 11px;
+            }
+
+            .logout {
+                width: 120px;
+                height: 46.45px;
+                margin-left: 15px;
+                background: #314648;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                color: white;
+                border: none;
+            }
+
+            .large-text {
+                font-size: 19px;
+            }
+
+            .profileEvents {
+                width: 90px;
+                height: 90px;
+            }
+
+            .eventsCard {
+                margin: 9px;
+                padding: 9px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 250px;
+            }
+
+            .medium-text {
+                font-size: 12px;
+            }
+
+            .upcomingProfile {
+                min-width: 120px;
+                min-height: 35px;
+                border: none;
+                background-color: #38888F !important;
+                color: white;
+                box-shadow: 0px 4px 5px rgb(0 0 0 / 17%);
+                border-radius: 6px;
+                padding: 11px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .pastOutlineButton {
+                min-width: 120px;
+            }
+
+            .side_tag {
+                font-size: 8px;
+            }
+
+            .title_favourit {
+                font-size: 13px;
+            }
+
+            .imgGap {
+                margin-right: 10px;
+            }
+
+            .upcoming {
+                width: 100%;
+            }
+
+            .eventImage {
+                height: 70px;
+                width: 70px;
+            }
+
+            .heartIcon {
+                width: 15px;
+                height: 15px;
+            }
+
+            .past {
+                width: 110.0px;
+            }
+
+            .fieldBackground {
+                width: 38%;
+                font-size: 7px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 9px;
+            }
+
+            .normal-text {
+                font-size: 12px;
+            }
+
+            .createEventBG {
+                width: 100%;
+                height: 50px !important;
+                min-height: 50px !important;
+                margin-bottom: 2%;
+                margin-left: -12px;
+            }
+
+            .eventsTitle {
+                font-size: 14px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 7px;
+            }
+
+            .notificationDot {
+                left: 75%;
+                height: 8px;
+                width: 8px;
+            }
+
+            .activeDot {
+                left: 100%;
+            }
+
+            .mediumTextGrey {
+                font-size: 8px;
+            }
+
+            .smallTextGrey {
+                font-size: 9px;
+            }
+
+            .notifications-primary-text {
+                font-size: 10px;
+            }
+
+            .agoColor {
+                font-size: 10px;
+                margin-left: 2px;
+            }
+
+            .create_account {
+                color: white;
+                text-align: center;
+                font-size: 12px;
+                left: 35%;
+                top: 40px !important;
+            }
+
+            .create_account img {
+                width: 15px;
+                height: 15px;
+            }
+
+            .hintText {
+                font-size: 10px;
+                padding: 13px;
+                min-width: 70px;
+                color: rgba(148.75, 148.75, 148.75, 1);
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .whiteBanner {
+                background: white;
+                position: absolute;
+                right: 30px;
+                bottom: 20;
+                border-radius: 10px;
+                width: 106px;
+                justify-content: center;
+                height: 28px;
+                font-size: 10px;
+            }
+
+            .smallCircularImage {
+                width: 20px;
+                height: 20px;
+            }
+
+            .smallTextGrey {
+                font-size: 8px;
+            }
+
+            .headerSearchBColor {
+                background-color: rgba(41, 114, 121, 0.09);
+                border-radius: 6px;
+                width: 92%;
+                align-items: center;
+                vertical-align: middle;
+                height: 48.0px;
+            }
+
+            .headerSearchColor {
+                font-size: 15px;
+            }
+
+            .iconsBackgroundBox {
+                height: 30px;
+                width: 30px;
+            }
+
+            .circularImage {
+                width: 40px;
+                height: 40px;
+            }
+
+            .greenBanner {
+                position: absolute;
+                right: 20px;
+                border-radius: 10px;
+                width: auto;
+                min-width: 80px;
+                justify-content: center;
+                height: 30px;
+                top: -45px;
+                font-size: 10px;
+            }
+
+            .darkGreenBanner {
+                position: absolute;
+                right: 20px;
+                border-radius: 10px;
+                width: auto;
+                min-width: 80px;
+                justify-content: center;
+                height: 30px;
+                top: -45px;
+                font-size: 10px;
+            }
+
+
+
+            .whiteIconsBackgroundBox {
+                height: 30px;
+                width: 30px;
+                position: absolute;
+            }
+        }
+
+        @media only screen and (max-width: 799px) and (min-width: 768px) {
+            .personFollowersInfo {
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .condition_tag {
+                width: 15%;
+                height: 35px;
+                font-size: 10px;
+                border: 1px solid #6D6D6D;
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .shareImg {
+                height: 11px;
+                width: 11px;
+            }
+
+            .personInfo {
+                font-size: 11px;
+            }
+
+            .logout {
+                width: 90px;
+                margin-left: 15px;
+                margin-right: 15px;
+                background: #314648;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                color: white;
+                border: none;
+                font-size: 10px;
+            }
+
+            .large-text {
+                font-size: 19px;
+            }
+
+            .profileEvents {
+                width: 90px;
+                height: 90px;
+            }
+
+            .eventsCard {
+                margin: 5px;
+                padding: 5px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 230px;
+            }
+
+            .medium-text {
+                font-size: 12px;
+            }
+
+            .upcomingProfile {
+                min-width: 120px;
+                min-height: 35px;
+                border: none;
+                font-size: 12px;
+                background-color: #38888F !important;
+                color: white;
+                box-shadow: 0px 4px 5px rgb(0 0 0 / 17%);
+                border-radius: 6px;
+                padding: 11px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .pastOutlineButton {
+                min-width: 120px;
+                font-size: 12px;
+            }
+
+            .large-text {
+                font-size: 13px;
+            }
+
+            .exploreImage {
+                height: 90%;
+                width: 90%;
+            }
+
+            /* .bottomPostion {
+                top: 30%;
+                transform: translate(-50%, 100%);
+                bottom: 30%;
+                left: 50%;
+                position: absolute;
+              
+            } */
+            .sign_log {
+                margin: 0;
+            }
+
+            .left-bottom {
+                display: none;
+            }
+
+            .medium-heading-green {
+                margin: 0;
+            }
+
+            .sig_btn {
+                margin: 0;
+            }
+
+            .right-top {
+                display: none;
+            }
+
+            .title_favourit {
+                font-size: 13px;
+            }
+
+            .fav_title {
+                height: 10px;
+                width: 10px;
+            }
+
+            .imgGap {
+                margin-right: 10px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+                font-size: 15px !important;
+            }
+
+            .past {
+                width: 100.0px !important;
+                font-size: 15px !important;
+            }
+
+            .eventImage {
+                height: 70px;
+                width: 70px;
+            }
+
+            .heartIcon {
+                width: 15px;
+                height: 15px;
+            }
+
+            .side_tag {
+                font-size: 7px;
+            }
+
+            .fieldBackground {
+                width: 40%;
+                font-size: 7px;
+            }
+
+            .leftMenuHeading {
+                font-size: 14px;
+                margin-left: 5% !important;
+                margin-bottom: 3%;
+            }
+
+            .tags {
+                font-size: 10px;
+            }
+
+            .normal-text {
+                font-size: 12px;
+            }
+
+            .createEventBG {
+                width: 100%;
+                height: 50px !important;
+                min-height: 50px !important;
+                margin-bottom: 2%;
+                margin-left: -12px;
+            }
+
+            .eventsTitle {
+                font-size: 12px;
+            }
+
+            .eventsDetailsHome {
+                font-size: 7px;
+            }
+
+            .notificationDot {
+                left: 80%;
+                width: 7px;
+                height: 7px;
+            }
+
+            .activeDot {
+                left: 100%;
+            }
+
+            .mediumTextGrey {
+                font-size: 8px;
+            }
+
+            .smallTextGrey {
+                font-size: 7px !important;
+            }
+
+            .notifications-primary-text {
+                font-size: 10px;
+            }
+
+            .agoColor {
+                font-size: 10px;
+                margin-left: 2px;
+            }
+
+            .create_account {
+                color: white;
+                text-align: center;
+                font-size: 12px;
+                left: 35%;
+                top: 40px !important;
+            }
+
+            .hintText {
+                font-size: 11px;
+                padding: 13px;
+                min-width: 70px;
+                color: rgba(148.75, 148.75, 148.75, 1);
+            }
+
+            .eventsPic {
+                width: 70px;
+                height: auto;
+            }
+
+            .home_km {
+                font-size: 10px;
+            }
+
+            .whiteBanner {
+                background: white;
+                position: absolute;
+                right: 30px;
+                bottom: 20;
+                border-radius: 10px;
+                width: 106px;
+                justify-content: center;
+                height: 28px;
+                font-size: 10px;
+            }
+
+            .smallCircularImage {
+                width: 20px;
+                height: 20px;
+            }
+
+            .smallTextGrey {
+                font-size: 8px;
+            }
+
+            .headerSearchBColor {
+                background-color: rgba(41, 114, 121, 0.09);
+                border-radius: 6px;
+                width: 92%;
+                align-items: center;
+                vertical-align: middle;
+                height: 48.0px;
+            }
+
+            .headerSearchColor {
+                font-size: 15px;
+            }
+
+            .iconsBackgroundBox {
+                height: 30px;
+                width: 30px;
+            }
+
+            .circularImage {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) and (min-width:576px) {
+            .personFollowersInfo {
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .event_desc {
+                font-size: 11px;
+            }
+
+            .condition_tag {
+                width: 15%;
+                height: 35px;
+                font-size: 11px;
+                border: 1px solid #6D6D6D;
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .b_comment {
+                font-size: 10px;
+            }
+
+            .notification {
+                margin: 0;
+            }
+
+            .inputFieldGreenBG {
+                width: 270px;
+            }
+
+            .personInfo {
+                font-size: 11px;
+            }
+
+            .logout {
+                width: 90px;
+                margin-left: 15px;
+                margin-right: 15px;
+                background: #314648;
+                box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                color: white;
+                border: none;
+                font-size: 10px;
+            }
+
+            .large-text {
+                font-size: 19px;
+            }
+
+            .profileEvents {
+                width: 90px;
+                height: 90px;
+            }
+
+            .eventsCard {
+                margin: 5px;
+                padding: 5px;
+                box-shadow: 0px 4px 44px rgb(0 0 0 / 7%);
+                border-radius: 9px;
+                min-width: 230px;
+            }
+
+            .medium-text {
+                font-size: 12px;
+            }
+
+            .upcomingProfile {
+                min-width: 120px;
+                min-height: 35px;
+                border: none;
+                font-size: 12px;
+                background-color: #38888F !important;
+                color: white;
+                box-shadow: 0px 4px 5px rgb(0 0 0 / 17%);
+                border-radius: 6px;
+                padding: 11px;
+            }
+
+            .eventsTitleProfile {
+                font-size: 10px;
+            }
+
+            .pastOutlineButton {
+                min-width: 120px;
+                font-size: 12px;
+            }
+
+            .large-text {
+                font-size: 13px;
+            }
+
+            .tools {
+                margin-bottom: 25px;
+            }
+
+            .w-75 {
+                width: 40% !important;
+            }
+
+            .inputFieldGreenBG {
+                width: 300px;
+            }
+
+            .centerAnyThing {
+                display: block;
+            }
+
+            .signupCenter {
+                display: inline-block;
+            }
+
+            .loginBg {
+                display: none;
+            }
+
+            .sign_log {
+                margin: 0;
+            }
+
+            .left-bottom {
+                display: none;
+            }
+
+            .medium-heading-green {
+                margin: 0;
+            }
+
+            .sig_btn {
+                margin: 0;
+            }
+
+            .right-top {
+                display: none;
+            }
+
+            .eventImage {
+                width: 100px;
+                height: 100px;
+            }
+
+            .imgGap {
+                margin-right: 0px;
+            }
+
+            .mb {
+                margin-bottom: 3%;
+            }
+
+            .headerLogo {
+                text-align: center;
+            }
+
+            .sideBar {
+                margin: 0 auto;
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .normal-text {
+                font-size: 15px;
+            }
+
+            .filterEvents {
+                display: none;
+            }
+
+            .tools {
+                text-align: center;
+            }
+
+            .notificationDot {
+                left: 50%;
+                width: 8px;
+                height: 8px;
+            }
+
+            .activeDot {
+                left: 53%;
+                height: 10px;
+                width: 10px;
+            }
+
+            .circularImage {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+
+            .topMargin {
+                margin-top: 2%;
+            }
+
+            .notifications {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 575px) and (min-width:541px) {
+            .personFollowersInfo {
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .event_desc {
+                font-size: 11px;
+            }
+
+            .condition_tag {
+                width: 15%;
+                height: 35px;
+                font-size: 11px;
+                border: 1px solid #6D6D6D;
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .b_comment {
+                font-size: 10px;
+            }
+
+            .notification {
+                margin: 0;
+            }
+
+            .scroll {
+                max-width: 500px;
+                overflow-x: auto;
+            }
+
+            .signupCenter {
+                display: inline-block;
+            }
+
+            .loginBg {
+                display: none;
+            }
+
+            .sign_log {
+                margin: 0;
+            }
+
+            .left-bottom {
+                display: none;
+            }
+
+            .medium-heading-green {
+                margin: 0;
+            }
+
+            .sig_btn {
+                margin: 0;
+            }
+
+            .right-top {
+                display: none;
+            }
+
+            .side_tag {
+                font-size: 11px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+                font-size: 15px !important;
+            }
+
+            .past {
+                width: 100.0px !important;
+                font-size: 15px !important;
+            }
+
+            .sideBar {
+                margin: 0 auto;
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .normal-text {
+                font-size: 13px;
+            }
+
+            .topMargin {
+                margin-top: 2%;
+            }
+
+            .notifications {
+                display: none;
+            }
+
+            .tools {
+                text-align: center;
+            }
+
+            .notificationDot {
+                width: 9px;
+                height: 9px;
+                left: 50%;
+                top: 20%;
+                position: absolute;
+                background-color: rgba(255, 96, 96, 1);
+                border-radius: 8px;
+            }
+
+            .activeDot {
+                width: 9px;
+                height: 9px;
+                left: 60%;
+                top: 11%;
+                position: absolute;
+                background-color: #26C696;
+                border-radius: 8px;
+            }
+
+            .filterEvents {
+                display: none;
+            }
+
+            .create_account {
+                top: 45px;
+                left: 35%;
+                font-size: 15px;
+            }
+
+            .mediumTextGrey {
+                font-size: 10px;
+            }
+
+            .smallTextGrey {
+                font-size: 12px;
+            }
+
+            .eventsNearYouSection {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 540px) and (min-width:534px) {
+            .personFollowersInfo {
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .event_desc {
+                font-size: 11px;
+            }
+
+            .condition_tag {
+                width: 15%;
+                height: 35px;
+                font-size: 11px;
+                border: 1px solid #6D6D6D;
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .b_comment {
+                font-size: 10px;
+            }
+
+            .notification {
+                margin: 0;
+            }
+
+            .signupCenter {
+                display: inline-block;
+            }
+
+            .loginBg {
+                display: none;
+            }
+
+            .sign_log {
+                margin: 0;
+            }
+
+            .left-bottom {
+                display: none;
+            }
+
+            .medium-heading-green {
+                margin: 0;
+            }
+
+            .sig_btn {
+                margin: 0;
+            }
+
+            .right-top {
+                display: none;
+            }
+
+            .side_tag {
+                font-size: 11px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+                font-size: 15px !important;
+            }
+
+            .past {
+                width: 100.0px !important;
+                font-size: 15px !important;
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .normal-text {
+                font-size: 12px;
+            }
+
+            .topMargin {
+                margin-top: 2%;
+            }
+
+            .notifications {
+                display: none;
+            }
+
+            .tools {
+                text-align: center;
+            }
+
+            .notificationDot {
+                width: 9px;
+                height: 9px;
+                left: 50%;
+                top: 20%;
+                position: absolute;
+                background-color: rgba(255, 96, 96, 1);
+                border-radius: 8px;
+            }
+
+            .activeDot {
+                width: 9px;
+                height: 9px;
+                left: 60%;
+                top: 11%;
+                position: absolute;
+                background-color: #26C696;
+                border-radius: 8px;
+            }
+
+            .filterEvents {
+                display: none;
+            }
+
+            .create_account {
+                top: 45px;
+                left: 35%;
+                font-size: 15px;
+            }
+
+            .mediumTextGrey {
+                font-size: 9px;
+            }
+
+            .smallTextGrey {
+                font-size: 12px;
+            }
+
+            .sideBar {
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+
+            .headerlogo {
+                text-align: center;
+            }
+
+            .eventsNearYouSection {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 533px) and (min-width:400px) {
+            .pro {
+                margin: 10px;
+            }
+
+            .personFollowersInfo {
+                display: block;
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .map_button {
+                width: 100%;
+                height: 50px;
+                margin: 0 auto;
+                background: #314648;
+                box-shadow: 0px 4px 34px rgb(0 0 0 / 25%);
+                border-radius: 6px;
+                margin-top: 12px;
+                color: white;
+            }
+
+            .map {
+                width: 100%;
+                text-align: center;
+            }
+
+            .event_desc {
+                font-size: 10px;
+            }
+
+            .condition_tag {
+                width: 15%;
+                height: 30px;
+                font-size: 7px;
+                border: 1px solid #6D6D6D;
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .b_comment {
+                font-size: 10px;
+            }
+
+            .notification {
+                margin: 0;
+            }
+
+            .signupCenter {
+                display: inline-block;
+            }
+
+            .loginBg {
+                display: none;
+            }
+
+            .sign_log {
+                margin: 0;
+            }
+
+            .left-bottom {
+                display: none;
+            }
+
+            .medium-heading-green {
+                margin: 0;
+            }
+
+            .sig_btn {
+                margin: 0;
+            }
+
+            .right-top {
+                display: none;
+            }
+
+            .sideBar {
+                margin: 0 auto;
+            }
+
+            .eventImage {
+                height: 80px;
+                width: 80px;
+            }
+
+            .title_favourit {
+                font-size: 12px;
+            }
+
+            .fav_title {
+                width: 6px;
+                height: 6px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+                font-size: 15px !important;
+            }
+
+            .past {
+                width: 100% !important;
+                font-size: 15px !important;
+            }
+
+            .side_tag {
+                font-size: 11px;
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .normal-text {
+                font-size: 15px;
+            }
+
+            .topMargin {
+                margin-top: 2%;
+            }
+
+            .notifications {
+                display: none;
+            }
+
+            .tools {
+                text-align: center;
+            }
+
+            .notificationDot {
+                width: 9px;
+                height: 9px;
+                left: 50%;
+                top: 20%;
+                position: absolute;
+                background-color: rgba(255, 96, 96, 1);
+                border-radius: 8px;
+            }
+
+            .activeDot {
+                width: 9px;
+                height: 9px;
+                left: 60%;
+                top: 11%;
+                position: absolute;
+                background-color: #26C696;
+                border-radius: 8px;
+            }
+
+            .filterEvents {
+                display: none;
+            }
+
+            .create_account {
+                top: 45px;
+                left: 35%;
+                font-size: 15px;
+            }
+
+            .mediumTextGrey {
+                font-size: 8px;
+            }
+
+            .smallTextGrey {
+                font-size: 11px;
+            }
+
+            .whiteBanner {
+                background: white;
+                position: absolute;
+                right: 30px;
+                bottom: 20;
+                border-radius: 10px;
+                width: 100px;
+                font-size: 11px;
+                justify-content: center;
+                height: 40px;
+            }
+
+            .greenBanner {
+                background: #43D686;
+                position: absolute;
+                right: 20px;
+                border-radius: 10px;
+                font-size: 12px;
+                justify-content: center;
+                height: 30px;
+                top: -45px;
+            }
+
+            .darkGreenBanner {
+                position: absolute;
+                right: 20px;
+                border-radius: 10px;
+                font-size: 12px;
+                justify-content: center;
+                height: 30px;
+                top: -45px;
+            }
+
+            .headerlogo {
+                text-align: center;
+            }
+
+
+        }
+
+        @media only screen and (max-width: 399px) {
+            .pro {
+                margin: 10px;
+            }
+
+            .proo {
+                margin: 10px;
+            }
+
+            .personFollowersInfo {
+                display: block;
+                padding: 13px;
+            }
+
+            .profileInfo {
+                display: block;
+            }
+
+            .map_button {
+                width: 100%;
+                height: 50px;
+                margin: 0 auto;
+                background: #314648;
+                box-shadow: 0px 4px 34px rgb(0 0 0 / 25%);
+                border-radius: 6px;
+                margin-top: 12px;
+                color: white;
+            }
+
+            .map {
+                width: 100%;
+                text-align: center;
+            }
+
+            .event_desc {
+                font-size: 7px;
+            }
+
+            .condition_tag {
+                width: 15%;
+                height: 35px;
+                font-size: 7px;
+                border: 1px solid #6D6D6D;
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color: white;
+            }
+
+            .b_comment {
+                font-size: 10px;
+            }
+
+            .hide {
+                display: none;
+            }
+
+            .title,
+            .title span {
+                font-size: 13px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .circularImage {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            .data h4 {
+                margin-left: 12px;
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            .block {
+                font-size: 9px;
+            }
+
+            .description {
+                font-size: 9px;
+            }
+
+            .inputFieldGreenBG {
+                width: 300px;
+            }
+
+            .notify_description {
+                text-align: center;
+                font-size: 11px;
+                font-weight: 400;
+            }
+
+            .notification {
+                margin: 0;
+            }
+
+            .loginBg {
+                display: none;
+            }
+
+            .sign_log {
+                margin: 0;
+            }
+
+            .left-bottom {
+                display: none;
+            }
+
+            .medium-heading-green {
+                margin: 0;
+            }
+
+            .sig_btn {
+                margin: 0;
+            }
+
+            .right-top {
+                display: none;
+            }
+
+            .title_favourit {
+                font-size: 12px;
+            }
+
+            .eventImage {
+                height: 70px;
+                width: 70px;
+            }
+
+            .heartIcon {
+                width: 12px;
+                height: 12px;
+            }
+
+            .side_tag {
+                font-size: 11px;
+            }
+
+            .upcoming {
+                width: 100% !important;
+                font-size: 15px !important;
+            }
+
+            .past {
+                width: 100.0px !important;
+                font-size: 15px !important;
+            }
+
+            .topMargin {
+                margin-top: 2%;
+            }
+
+            .sideBar {
+                margin: 0 auto;
+            }
+
+            .notifications {
+                display: none;
+            }
+
+            .tools {
+                text-align: center;
+            }
+
+            .notificationDot {
+                width: 9px;
+                height: 9px;
+                left: 50%;
+                top: 20%;
+                position: absolute;
+                background-color: rgba(255, 96, 96, 1);
+                border-radius: 8px;
+            }
+
+            .activeDot {
+                width: 9px;
+                height: 9px;
+                left: 60%;
+                top: 11%;
+                position: absolute;
+                background-color: #26C696;
+                border-radius: 8px;
+            }
+
+            .filterEvents {
+                display: none;
+            }
+
+            .create_account {
+                font-size: 11px;
+            }
+
+            .create_account img {
+                height: 13px;
+                width: 13px;
+            }
+
+            .mediumTextGrey {
+                font-size: 7px !important;
+            }
+
+         
+            .whiteBanner {
+                background: white;
+                position: absolute;
+                right: 30px;
+                bottom: 20;
+                border-radius: 10px;
+                width: 70px;
+                font-size: 7px;
+                justify-content: center;
+                height: 30px;
+            }
+
+            .eventsTitle {
+                font-size: 10px;
+            }
+
+            .greenBanner {
+                background: #43D686;
+                position: absolute;
+                right: 20px;
+                border-radius: 10px;
+                font-size: 12px;
+                justify-content: center;
+                height: 30px;
+                top: -45px;
+            }
+
+            .darkGreenBanner {
+                position: absolute;
+                right: 20px;
+                border-radius: 10px;
+                font-size: 12px;
+                justify-content: center;
+                height: 30px;
+                top: -45px;
+            }
+
+            .eventsPic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .normal-text {
+                font-size: 13px;
+            }
+
+            .headerlogo {
+                text-align: center;
+            }
+
+            .smallCircularImage {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+            }
+
+            .eventsDetailsHome {
+                font-size: 8px;
+            }
+
+            .whiteIconsBackgroundBox {
+                height: 20px;
+                position: absolute;
+                display: flex;
+                width: 20px;
+                right: 30;
+                top: 7;
+                background-color: white;
+                border-radius: 6px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .fa {
+                font-size: 10px !important;
+            }
+
+            .vertical {
+                width: 10px;
+                position: absolute;
+                left: 90%;
+                top: 50%;
+                border: 1px solid #E6E6E6;
+                transform: rotate(90deg);
+            }
+
+            .sidebar {
+                margin-top: 15px;
+            }
+
+
+        }
+
+        /* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+
+        .text-small {
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: none;
+        }
+
+        .form-control {
+            background: #212529;
+            border-color: #545454;
+        }
+
+        .form-control:focus {
+            background: #212529;
+        }
+
+        footer {
+            background: #2c2e2e;
+            padding: 30px;
+        }
+
+        .footer {
+            width: 100%;
+        }
+
+        /* ==========================================
+CUSTOM UTILS CLASSES
+========================================== */
+        .policy {
+            color: #74ABB0;
+            text-decoration: underline;
+        }
+
+        .pic {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .searchUserResults {
+            position: fixed;
+            background: white;
+            z-index: 999;
+            width: 50%;
+        }
+
+        .cancelBG {
+            background-color: #850707;
+        }
+
+        .d-grid {
+            display: grid !important;
+        }
+
+        .personFollowersInfo a {
+            color: black !important;
+        }
+
+        a:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        i:hover {
+            cursor: pointer;
+        }
+
+        input[type="checkbox"] {
+            visibility: hidden;
+        }
+
+        input[type="checkbox"]:checked+.labelSwitch {
+            transform: rotate(360deg);
+            background-color: #314648;
+        }
+
+        input[type="checkbox"]:checked+.labelSwitch:before {
+            transform: translateX(50px);
+            background-color: #fff;
+        }
+
+        .labelSwitch {
+            display: flex;
+            width: 100px;
+            height: 40px;
+            border: 3px solid;
+            border-radius: 99em;
+            position: relative;
+            transition: transform 0.75s ease-in-out;
+            transform-origin: 50% 50%;
+            cursor: pointer;
+        }
+
+        .labelSwitch:before {
+            transition: transform 0.75s ease;
+            transition-delay: 0.5s;
+            content: "";
+            display: block;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #000;
+            border-radius: 50%;
+            top: 12px;
+            left: 12px;
+        }
+
+        .aWithoutDec {
+            color: inherit !important;
+            text-decoration: inherit !important;
+        }
+
+        textarea {
+            border: none;
+            background-color: transparent;
+            resize: none;
+            outline: none;
+            width: 98%;
+            margin: 0;
+            padding: 0;
+            border-width: 0;
+        }
+
+        .userWillComment {
+            background: rgba(41, 114, 121, 0.09);
+            border-radius: 6px;
+            color: #74ABB0 !important;
+            line-height: 27px;
+            padding: 10px;
+        }
+
+        .commentBtn {
+            background: #3BACEC;
+            color: white;
+            border: none;
+            position: absolute;
+            border-radius: 6px;
+            right: 3%;
+            padding: 10px;
+        }
+
+        .yourComment {
+            background-color: #F8F5EB !important;
+        }
+
+        .otherComment {
+            background-color: #F7F7F7 !important;
+        }
