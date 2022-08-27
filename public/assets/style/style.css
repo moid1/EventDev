@@ -3705,7 +3705,7 @@ CUSTOM UTILS CLASSES
             margin-top: 20px;
         }
 
-        .searchUserResults {
+        .searchResults {
             position: fixed;
             background: white;
             z-index: 999;
