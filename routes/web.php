@@ -41,6 +41,7 @@ Route::get('/clear-cache', function () {
 });
 
 Route::view('cookie_policy', 'front.cookie_policy');
+Route::view('eula', 'front.eula');
 Route::view('disclamier', 'front.disclamier');
 Route::view('privacy_policy', 'front.privacy_policy');
 Route::view('refund', 'front.refund_policy');

@@ -45,7 +45,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
             'message' => 'Logged In User'
         ]);
     });
-
+    Route::get('/delete-user', [APIAuthController::class, 'deleteUser']);
     Route::post('/saveLatLng', [AuthController::class, 'saveLatLng']);
     Route::get('/logout', [AuthController::class, 'appLogout']);
     Route::get('/getEvents', [EventController::class, 'getEvents']);
