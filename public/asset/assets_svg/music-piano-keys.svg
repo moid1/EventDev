@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="337.936" height="271.938" viewBox="0 0 337.936 271.938">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#febe2c"/>
+      <stop offset="1" stop-color="#fd8023"/>
+    </linearGradient>
+  </defs>
+  <g id="music-piano-keys" transform="translate(0 -27.881)">
+    <g id="Group_2270" data-name="Group 2270" transform="translate(0 27.881)">
+      <path id="Path_8121" data-name="Path 8121" d="M49.169,214.053H28.24V50.888h56.48V214.053h-23V299.82H102.5V27.881H0V299.82H49.169Z" transform="translate(0 -27.881)" fill="url(#linear-gradient)"/>
+      <path id="Path_8122" data-name="Path 8122" d="M144.853,299.82V214.053h-21.5V50.888h56.479V214.053H157.4V299.82h42.051V27.881H97.214V299.82Z" transform="translate(17.842 -27.881)" fill="url(#linear-gradient)"/>
+      <path id="Path_8123" data-name="Path 8123" d="M246.757,27.881H194.205V299.82H302.293V27.881Zm27.3,186.172H253.131v82.625H240.58V214.053H217.574V50.888h56.48Z" transform="translate(35.642 -27.881)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

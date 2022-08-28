@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="dashboard" transform="translate(-34 -214)">
+    <g id="Rectangle" transform="translate(34 214)" fill="#9f9f9f" stroke="#9f9f9f" stroke-miterlimit="10" stroke-width="4.8">
+      <rect width="8.571" height="8.571" rx="2" stroke="none"/>
+      <rect x="2.4" y="2.4" width="3.771" height="3.771" rx="0.4" fill="none"/>
+    </g>
+    <g id="Rectangle_Copy_4" data-name="Rectangle Copy 4" transform="translate(34 225.428)" fill="#9f9f9f" stroke="#9f9f9f" stroke-miterlimit="10" stroke-width="4.8">
+      <rect width="8.571" height="8.571" rx="2" stroke="none"/>
+      <rect x="2.4" y="2.4" width="3.771" height="3.771" rx="0.4" fill="none"/>
+    </g>
+    <g id="Rectangle_Copy_3" data-name="Rectangle Copy 3" transform="translate(45.429 214)" fill="#9f9f9f" stroke="#9f9f9f" stroke-miterlimit="10" stroke-width="4.8">
+      <rect width="8.571" height="20" rx="2" stroke="none"/>
+      <rect x="2.4" y="2.4" width="3.771" height="15.2" rx="0.4" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.821" height="26.8" viewBox="0 0 24.821 26.8">
+  <g id="notification2" transform="translate(0.321 1.5)">
+    <path id="Shape" d="M6.25,21.25A3.662,3.662,0,0,1,6.478,20H1.25a1.25,1.25,0,0,1-.884-2.134C2.5,15.733,2.5,13.7,2.5,10A7.505,7.505,0,0,1,8.75,2.613V1.25a1.25,1.25,0,1,1,2.5,0V2.613A7.506,7.506,0,0,1,17.5,10c0,3.7,0,5.733,2.134,7.866A1.25,1.25,0,0,1,18.75,20H13.52a3.647,3.647,0,0,1,.23,1.25,3.75,3.75,0,0,1-7.5,0Z" transform="translate(0)" fill="#78909c" stroke="#f4f9fb" stroke-miterlimit="10" stroke-width="0.6"/>
+    <rect id="bg" width="10" height="10" rx="5" transform="translate(13)" fill="#ff8036" stroke="#f6fafb" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
