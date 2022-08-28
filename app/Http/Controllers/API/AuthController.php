@@ -33,13 +33,19 @@ class AuthController extends Controller
         $profileImages = ProfileImage::where('user_id', $userId)->get();
         $events = Event::where('user_id', $userId)->get();
         if ($addresses) {
-            $addresses->delete();
+            foreach ($addresses as $address) {
+                $address->delete();
+            }
         }
         if ($profileImages) {
-            $profileImages->delete();
+            foreach ($profileImages as $image) {
+                $image->delete();
+            }
         }
         if ($events) {
-            $events->delete();
+            foreach ($events as $event) {
+                $event->delete();
+            }
         }
         $user->delete();
         return response()->json([
