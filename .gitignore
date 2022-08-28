@@ -1,4 +1,4 @@
-/public
 /vendor
 .env
 /node_modules
+/public/images

@@ -1,0 +1,10 @@
+<svg id="check-circle-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.949" height="33.949" viewBox="0 0 33.949 33.949">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#febe2c"/>
+      <stop offset="1" stop-color="#fd8023"/>
+    </linearGradient>
+  </defs>
+  <path id="Shape" d="M16.975,0A16.975,16.975,0,1,0,33.949,16.975,16.975,16.975,0,0,0,16.975,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <path id="Path" d="M19.151,2.3,9.468,15.443a1.43,1.43,0,0,1-2.023.266L.531,10.181A1.415,1.415,0,1,1,2.3,7.972l5.766,4.613L16.873.63A1.415,1.415,0,1,1,19.151,2.3Z" transform="translate(7.622 9.296)" fill="#fff"/>
+</svg>
