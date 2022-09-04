@@ -5,6 +5,7 @@ use App\Http\Controllers\API\EventController;
 use App\Http\Controllers\API\FollowingController as APiFollowingController;
 use App\Http\Controllers\API\NotificationsController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\API\BlockUserController;
 use App\Http\Controllers\CommentsController;
 use App\Http\Controllers\EventFeedsController;
 use App\Http\Controllers\FavrouiteController;
@@ -46,6 +47,8 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
         ]);
     });
     Route::get('/delete-user', [APIAuthController::class, 'deleteUser']);
+    Route::post('/block-user', [BlockUserController::class, 'store']);
+    Route::post('/unblock-user', [BlockUserController::class, 'unblockUser']);
     Route::post('/saveLatLng', [AuthController::class, 'saveLatLng']);
     Route::get('/logout', [AuthController::class, 'appLogout']);
     Route::get('/getEvents', [EventController::class, 'getEvents']);

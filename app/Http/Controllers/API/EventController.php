@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\BlockUser;
 use App\Models\Event;
 use App\Models\EventFeeds;
 use App\Models\EventsPictures;
@@ -21,7 +22,8 @@ class EventController extends Controller
     public function getEvents()
     {
         $eventTypes = EventTypes::all();
-        $allEvents = Event::where('is_drafted', 0)->with(['eventPictures', 'user', 'comment', 'liveFeed'])->get();
+        $currentBlockUsers = BlockUser::where('user_id', Auth::id())->get('block_user_id')->pluck('block_user_id');
+        $allEvents = Event::where('is_drafted', 0)->whereNotIn('user_id', $currentBlockUsers)->with(['eventPictures', 'user', 'comment', 'liveFeed'])->get();
         $temp = array();
 
         // dd(Carbon::today()->toDateString());
