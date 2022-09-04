@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Address;
+use App\Models\BlockUser;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -187,11 +188,14 @@ class AuthController extends Controller
 
     public function getUserDetailsById($id)
     {
+        $alreadyBlocked =  BlockUser::where('block_user_id', $id)->where('user_id', Auth::id())->first();
+
         $user = User::find($id);
         return response()->json([
             'success' => true,
             'data' => $user,
-            'message' => 'User Detail'
+            'message' => 'User Detail',
+            'is_blocked' => $alreadyBlocked ? true : false
         ]);
     }
 }
